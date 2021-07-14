@@ -1,3 +1,11 @@
+/*Create an Employee class with the related attributes and behaviours.
+Create one more class EmployeeDB which has the following methods.
+a. boolean addEmployee(Employee e)
+b.  boolean deleteEmployee(int eCode) 
+c.  String showPaySlip(int eCode)
+d.  Employee[] listAll()
+Use an ArrayList which will be used to store the emplyees and use enumeration/iterator to process the employees.
+Write a Test Program to test that all functionalities are operational.*/
 package collection_list;
 
 import java.util.ArrayList;
@@ -112,7 +120,7 @@ public class EmployeeDB {
 		EmployeeDB empDb = new EmployeeDB();
 		Employee emp1=new Employee(321,"Dora","Park Street",30000.00,"d.ora@gmail.com");
 		Employee emp2=new Employee(322,"Nobi","Ontario Street",70000.00,"no.bi@gmail.com");
-		Employee emp3=new Employee(323,"sizhuka","Otawwa Street",50000.00,"sizu.21@gmail.com");
+		Employee emp3=new Employee(323,"sinzu","Otawwa Street",50000.00,"sizu.21@gmail.com");
 		Employee emp4=new Employee(329,"gian","New Way Street",30000.00,"dgi1@gmail.com");
 		
 		empDb.addEmployee(emp1);
