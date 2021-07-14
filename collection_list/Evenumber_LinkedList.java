@@ -1,3 +1,6 @@
+/*
+Implement the assignment 1 using LinkedList
+*/
 package collection_list;
 
 
