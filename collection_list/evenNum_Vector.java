@@ -1,4 +1,3 @@
-/*Implement the assignment 1 using Vector*/
 package collection_list;
 
 
